@@ -1,0 +1,23 @@
+mixin picture(path, width, height, alt)
+	- var ext = path.substr(path.length - 4);
+	if /\.svg/.test(path)
+		img(
+			alt=alt
+			height=height
+			src=path
+			width=width
+		)
+	else
+		picture
+			//- source(
+			//-     srcset="#{ path.replace(ext, '.webp') }, #{ path.replace(ext, '@2x.webp') } 2x"
+			//-     type="image/webp"
+			//- )
+			source(media="(max-width: 600px)" srcset="#{ path.replace(ext, '@0,5x' + ext) }, #{path} 2x")
+			img(
+				alt=alt
+				src=path
+				srcset="#{ path.replace(ext, '@2x' + ext) } 2x"
+				width=width
+				height=height
+			)

@@ -1,0 +1,24 @@
+include ./picture
+
+mixin project(item)
+	section.project(class=item.class)
+		.info
+			h2= item.title
+			p.subtitle= item.subtitle
+			p.description= item.description
+			if current.source === "index"
+				p.projectLink: a(href="/projects/#{item.class}.html") Go to project
+			p.linkPreText= item.linkPreText
+			ul
+				li
+					a(href=item.linkUrl target="_blank")= item.linkText
+				li
+					a(href=item.linkUrl2 target="_blank")= item.linkText2
+		.gallery
+			ol.images
+				each image in item.images
+					li.image
+						+picture(image.src, image.width, image.height, image.alt)
+		.gallery-navigation
+			button.prev Prev
+			button.next Next

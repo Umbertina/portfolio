@@ -1,0 +1,133 @@
+.project {
+	@padding: 3.5em;
+	@image-height: 500px;
+	@image-height-mobile: @image-height / 2;
+
+	display: flex;
+	align-content: stretch;
+
+	.info {
+		flex: 0 0 250px;
+		padding: @padding;
+
+		.subtitle {
+			text-transform: uppercase;
+			font-size: 1em;
+			letter-spacing:.11em;
+			margin: 0.25em 0 1.5em 0;
+		}
+		.description {
+			font-size:.9em;
+			margin:0.25em 0 1em 0;
+		}
+		.projectLink {
+			display: none;
+		}
+		.linkPreText {
+			margin-top:1.5em;
+		}
+	}
+
+	.gallery {
+		flex: 1;
+		padding: @padding;
+		position: relative;
+		overflow-y: hidden;
+		overflow-x: scroll;
+		white-space: nowrap;
+		-webkit-overflow-scrolling:touch;
+
+		.images {
+			display: flex;
+			align-items: center;
+
+			.image {
+				padding-right: @padding;
+
+				img {
+					background: #eee;
+					box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+				}
+			}
+		}
+	}
+
+	@media (max-width: 600px) {
+		flex-direction: column;
+
+		.info {
+			flex: 0;
+			padding:1.5em 1.5em 0 1.5em;
+
+			h2 {
+				margin-top: .5em;
+				font-size: 1.35em;
+			}
+			.subtitle {
+				margin: 0 0 .75em 0;
+				font-size: 1em;
+			}
+
+			.projectLink {
+				display: inherit;
+			}
+
+			.linkPreText {
+				margin-top:.75em;
+			}
+		}
+
+		.gallery {
+			padding: (@padding / 2);
+
+			.image {
+				&:not(:first-child) {
+					display: none;
+				}
+
+				padding-right: 0;
+
+				img {
+					width: auto;
+					height: @image-height-mobile;
+				}
+			}
+		}
+	}
+}
+
+.project {
+	&.voksenverden{
+		background-color:#5d5953;
+		h2, p, a{
+			color:#fffaf0;
+		}
+	}
+	&.microsunapp{
+		background-color:#81d4ee;
+	}
+	&.microsun{
+		background-color: #FFEF5E;
+	}
+	&.naturalistic{
+		background-color: #a5ac99;
+		h2, p, a{
+			color:#fffaf0;
+		}
+	}
+	&.conceptual{
+		background-color: #fffaf0;
+	}
+	&.illustrations{
+		background-color: #5d5953;
+		h2, p, a{
+			color:#fffaf0;
+		}
+	}
+	&.posters{
+		background-color: #2a2722;
+		h2, p, a{
+			color:#fffaf0;
+		}
+	}
+}

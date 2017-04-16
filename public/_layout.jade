@@ -1,0 +1,34 @@
+include _shared/social
+
+doctype
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title= title
+		meta(meta="description" content=description)
+		link(rel="stylesheet" href="/styles/base.css")
+		block head
+
+	body
+		#container
+			header
+				.title
+					.author
+						img(src="/images/Handdrawn_Name_bold.svg" width="292" height="31" alt="Maria Hagsten Michelsen")
+					p.tagline= tagline
+				.social
+					+social()
+
+			#content
+				block content
+					!= yield
+
+		block scripts
+
+		script
+			include scripts/project.js
+		script
+			include ../node_modules/echo-js/dist/echo.min.js
+		script.
+			echo.init();

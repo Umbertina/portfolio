@@ -1,0 +1,9 @@
+extends ../_layout.jade
+include ../_shared/project
+
+block content
+	-var data = public._data.projects.find(function (p) { return p.class === current.source; });
+
+	+project(data)
+
+		!= yield

@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "harp compile",
+    "release": "npm run build && surge www",
+    "start": "harp server & browser-sync start --proxy 'localhost:9000' --files 'public/**/*.jade, publich/**/*.md, public/**/*.less, public/**/_data.json'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umbertina/portfolio.git"
+  },
+  "author": "Maria Hagsten Michelsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umbertina/portfolio/issues"
+  },
+  "homepage": "https://github.com/Umbertina/portfolio#readme",
+  "dependencies": {
+    "echo-js": "^1.7.3"
+  }
+}
