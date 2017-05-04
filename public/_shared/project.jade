@@ -1,7 +1,8 @@
 include ./picture
 
-mixin project(item)
-	section.project(class=item.class)
+mixin project(item, className = '')
+	- var classNames = item.class + ' ' + className
+	section.project(class=classNames)
 		.info
 			h2= item.title
 			p.subtitle= item.subtitle

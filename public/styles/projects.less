@@ -7,7 +7,7 @@
 	display: flex;
 	align-content: stretch;
 	position: relative;
-	
+
 	.info {
 		flex: 0 0 @info-width;
 		padding: @padding;
@@ -144,6 +144,26 @@
 	@bright:#fffaf0;
 	@contrast:#C3AF60;
 	@button-bright:rgba(255, 255, 255, 0.5);
+
+	&.single-page {
+		.gallery {
+			overflow: hidden;
+
+			.images {
+				flex-direction: column;
+
+				.image, .image img {
+					padding: 0;
+					margin-bottom: 1em;
+					max-width: 100%;
+					height: auto;
+				}
+			}
+		}
+		.gallery-navigation {
+			display: none;
+		}
+	}
 
 	&.voksenverden{
 		background-color:#5d5953;

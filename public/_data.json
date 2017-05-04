@@ -66,7 +66,7 @@
             "images": [
                 {
                     "src": "/images/MicroSunApp/MicroSun_App_Cover.jpg",
-                    "width": "639",
+                    "width": "667",
                     "height": "500",
                     "alt": "Microsun app cover"
                 },
@@ -167,7 +167,7 @@
             "images": [
                 {
                     "src": "/images/MicroSun/MicroSun_Brand_Cover.jpg",
-                    "width": "639",
+                    "width": "667",
                     "height": "500",
                     "alt": "Microsun cover"
                 },
@@ -266,6 +266,59 @@
                     "width": "773",
                     "height": "500",
                     "alt": "MicroSun postcards"
+                }
+            ]
+        },
+        {
+            "class": "illustrations",
+            "title": "Illustrations",
+            "subtitle": " ",
+            "description": "Digital drawings and paintings to be used as illustrations.",
+            "linkPreText": "Read more on:",
+            "linkText": "Behance",
+            "linkUrl": "https://www.behance.net/gallery/51639275/Illustrations",
+            "images": [
+                {
+                    "src": "/images/Illustrations/Cable_Car-01.svg",
+                    "width": "500",
+                    "height": "500",
+                    "alt": "Vector illustration of a people taking selfies on a San Francisco cable car"
+                },
+                                {
+                    "src": "/images/Illustrations/Dragon.jpg",
+                    "width": "375",
+                    "height": "500",
+                    "alt": "Happy red dragon with mountains in the background."
+                },
+                                                {
+                    "src": "/images/Illustrations/Pop.jpg",
+                    "width": "727",
+                    "height": "500",
+                    "alt": "Pop - a popcorn game character."
+                },
+                                                                {
+                    "src": "/images/Illustrations/Fishing.jpg",
+                    "width": "375",
+                    "height": "500",
+                    "alt": "A black haired woman with fishing pole and fish."
+                },
+                {
+                    "src": "/images/Illustrations/MHM-01.svg",
+                    "width": "682",
+                    "height": "500",
+                    "alt": "Vector illustration of the letters MHM"
+                },
+                {
+                    "src": "/images/Illustrations/The_Orchid-04.png",
+                    "width": "946",
+                    "height": "500",
+                    "alt": "An illustration showing an orchid in three stages of its life"
+                },
+                                                {
+                    "src": "/images/Illustrations/Red_Masked_Parakeet.jpg",
+                    "width": "510",
+                    "height": "500",
+                    "alt": "Digital drawing of a red masked parakeet"
                 }
             ]
         },
@@ -412,41 +465,6 @@
                     "width": "386",
                     "height": "500",
                     "alt": "Pencil drawing of bombed building in London during WW2"
-                }
-            ]
-        },
-        {
-            "class": "illustrations",
-            "title": "Illustrations",
-            "subtitle": " ",
-            "description": "Digital drawings and paintings to be used as illustrations.",
-            "linkPreText": "Read more on:",
-            "linkText": "Behance",
-            "linkUrl": "https://www.behance.net/gallery/51639275/Illustrations",
-            "images": [
-                {
-                    "src": "/images/Illustrations/Cable_Car-01.svg",
-                    "width": "500",
-                    "height": "500",
-                    "alt": "Vector illustration of a people taking selfies on a San Francisco cable car"
-                },
-                {
-                    "src": "/images/Illustrations/MHM-01.svg",
-                    "width": "682",
-                    "height": "500",
-                    "alt": "Vector illustration of the letters MHM"
-                },
-                {
-                    "src": "/images/Illustrations/The_Orchid-04.png",
-                    "width": "946",
-                    "height": "500",
-                    "alt": "An illustration showing an orchid in three stages of its life"
-                },
-                                                {
-                    "src": "/images/Illustrations/Red_Masked_Parakeet.jpg",
-                    "width": "510",
-                    "height": "500",
-                    "alt": "Digital drawing of a red masked parakeet"
                 }
             ]
         },
