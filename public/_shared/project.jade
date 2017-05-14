@@ -19,7 +19,11 @@ mixin project(item, className = '')
 			ol.images
 				each image in item.images
 					li.image
-						+picture(image.src, image.width, image.height, image.alt)
+						if image.type === 'video/mp4'
+							video(width=image.width, height=image.height, poster=image.poster, controls,loop)
+								source(src=image.src, type=image.type)
+						else
+							+picture(image.src, image.width, image.height, image.alt)
 		.gallery-navigation
 			button.prev ❮
 			button.next ❯
