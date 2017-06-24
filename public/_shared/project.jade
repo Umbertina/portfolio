@@ -4,7 +4,7 @@ mixin project(item, className = '')
 	- var classNames = item.class + ' ' + className
 	section.project(class=classNames)
 		.info
-			h2= item.title
+			h3= item.title
 			p.subtitle= item.subtitle
 			p.description= item.description
 			if current.source === "index"

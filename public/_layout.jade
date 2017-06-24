@@ -15,14 +15,39 @@ html(lang="en")
 			header
 				.title
 					.author
-						img(src="/images/Handdrawn_Name_bold.svg" width="292" height="31" alt="Maria Hagsten Michelsen")
-					p.tagline= tagline
+						.name
+							img(src="/images/Name-large.svg" width="250" height="27" alt="Maria Hagsten Michelsen")
+					//- p.tagline= tagline
 				.social
 					+social()
 
+			#prologue
+				.prologue
+					.fullname
+						img(src="/images/MHM-logo.svg" width="309.6" height="148" alt="MHM logo")				
+					p.profession graphic designer
+			.border-top
+
 			#content
+				.work
+					h2 Selected Works
 				block content
 					!= yield
+				.fullportfolio
+					a(href="https://www.behance.net/mhmichelsen")
+						p See full portfolio on Behance
+
+				.border-bottom
+
+			#epilogue
+				.epilogue
+					h2.cta Let's make<br/>amazing<br/>design
+					.info
+						a(href="mailto:maria.hagsten@michelsen.dk")
+							p.email maria@michelsen.dk
+
+				.portrait
+					img(src="/images/MHM_portrait.jpg" width="438" height="500" alt="Maria Hagsten Michelsen portrait")
 
 		block scripts
 

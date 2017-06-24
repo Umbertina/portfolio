@@ -1,6 +1,44 @@
 {
     "projects": [
         {
+            "class": "sanfranselfie",
+            "title": "San Franselfie",
+            "subtitle": "Hand Drawn Poster and Postcard",
+            "description": "A poster and postcard of tourist taking selfies on the Cable Car in North Beach, San Francisco. All artwork and typography is hand drawn in Adobe Draw and fine-tuned in Adobe Illustrator.",
+            "images": [
+                {
+                    "src": "/images/SanFranselfie/In-the-fog.jpg",
+                    "width": "666",
+                    "height": "500",
+                    "alt": "San Franselfie Poster and Postcard"
+                },
+                {
+                    "src": "/images/SanFranselfie/Package-track.jpg",
+                    "width": "375",
+                    "height": "500",
+                    "alt": "San Franselfie poster and postcard package shown on the cable car's tracks"
+                },
+                {
+                    "src": "/images/SanFranselfie/On-the-tracks2.jpg",
+                    "width": "666",
+                    "height": "500",
+                    "alt": "San Franselfie postcard displayed on the cable car's tracks"
+                },
+                {
+                    "src": "/images/SanFranselfie/Streetview.jpg",
+                    "width": "500",
+                    "height": "500",
+                    "alt": "San Franselfie postcard shown with cable car in the background"
+                },
+                {
+                    "src": "/images/SanFranselfie/Closeup.jpg",
+                    "width": "665",
+                    "height": "500",
+                    "alt": "Closeup of the details on the San Franselfie postcard"
+                }
+            ]
+        },        
+        {
             "class": "iconography",
             "title": "Iconography",
             "subtitle": "Icons for personal brand project",
@@ -344,11 +382,11 @@
             "description": "Digital drawings and paintings to be used as illustrations.",
             "images": [
                 {
-                    "src": "/images/Illustrations/Cable_Car-01.svg",
-                    "width": "500",
+                    "src": "/images/Illustrations/MHM-01.svg",
+                    "width": "682",
                     "height": "500",
-                    "alt": "Vector illustration of a people taking selfies on a San Francisco cable car"
-                },
+                    "alt": "Vector illustration of the letters MHM"
+                },                
                 {
                     "src": "/images/Illustrations/Dragon.jpg",
                     "width": "375",
@@ -374,12 +412,6 @@
                     "width": "375",
                     "height": "500",
                     "alt": "A black haired woman with fishing pole and fish."
-                },
-                {
-                    "src": "/images/Illustrations/MHM-01.svg",
-                    "width": "682",
-                    "height": "500",
-                    "alt": "Vector illustration of the letters MHM"
                 },
                 {
                     "src": "/images/Illustrations/The_Orchid-04.png",
