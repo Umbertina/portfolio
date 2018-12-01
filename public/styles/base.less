@@ -1,22 +1,25 @@
 @import 'reset';
 @import 'projects';
+@import url('https://fonts.googleapis.com/css?family=Amiko');
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Maven Pro');
 
+/* General */
+html {
+	scroll-behavior: smooth;
+  }
 body {
 	background: #FFFCF7;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-weight:regular;
 	margin: 0;
-	letter-spacing: .035em;
 	line-height: 1.45em;
 }
-
 h2 {
-	font-family: Lato,Helvetica, sans-serif;
-	font-weight: normal;
-	text-transform: uppercase;
+	font-family: Lato, Helvetica, sans-serif;
 	font-size: 2em;
-	letter-spacing: .065em;
 	line-height: 1.25;
+	font-weight: 300;
 	margin: 2em 0em 0em 0em;
 }
 
@@ -24,71 +27,311 @@ p {
 	font-size: 1em;
 	font-weight: 300;
 	margin-top: 1em;
+	line-height: 1.5;
+	@media (max-width: 600px) {
+	text-align: left;
+	}
 }
 a {
 	color: inherit;
-	font-weight: 500;
+	font-weight: 800;
 	text-decoration: none;
+	border-bottom: 2px solid #ffb526;
+}
+a:hover {
+	color: #ffb526;
+}
+b {
+	font-weight: 900;
 }
 .p404{
 	margin: 3.5em;
 }
 
-header {
-	z-index: 1;
-	padding: 3.5em 3.5em 1.75em 3.5em;
-	display: flex;
-	align-content: stretch;
-	height:10vh;
+/* Header */
 
-	.title {
-		.name{
-			// margin: 1.5em 0 1.5em 1.5em;
-		}
-		p.tagline{
-			color: #FFFCF7;
-			text-transform: lowercase;
-			margin: .25em;
+#header{
+	#title {
+		padding: 1.5em 5vw 1.75em 5vw;
+		font-family: Amiko, Helvetica, sans-serif;
+		font-size: 1.25em;
+		font-weight: regular;
+		letter-spacing: 1.25;
+		position: fixed;
+		z-index:2;
+		background: #FFFCF7;
+		width: 100%;
+		height: 3vh;
+	}
+	#shortbio{
+		font-family: Lato, Helvetica, sans-serif;
+		font-weight: 200;
+		margin: .25em;
+		width: 50vw;
+		opacity: 1;
+		z-index: 1;
+	}
+	@media (max-width: 500px) {
+		// width: 100%;
+			#title{
+				padding: 1em 1em;
+				font-size: 1em;	
+				height: 7vh;
+			#shortbio {
+				font-size: .85em;
+				display: block;
+			}
 		}
 	}
+
+}	
+.hideBio {
+	visibility: hidden;
+}	
+
+/* Menu */
+#menu {
+	z-index: 3;
+	padding: 1.5em;
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
+	nav {
+		float: right;
+		margin: .5em 2vw;
+
+		a {
+			font-family: Amiko, Helvetica, sans-serif;
+			font-size: 1.125em;
+			padding: 0 1em;
+			color: #4A4A4A;
+			align-items: center;
+			border:none;
+			font-weight: 200;
+		}
+		a:hover {
+			color: #ffb526;
+			box-shadow: 0 3px #f7f6f3;
+		}
+	}
+	@media (max-width: 500px) {
+		padding: .5em .25em;
+		font-size: .85em;
+		nav{			
+			// float: left;
+			// margin: .5em .5em;
+			a{
+				font-size: 1em;
+			}
+		}
+
+	}
+}
+/* Introduction */
+#introduction {
+	margin: 0 5vw 0 10vw;
+	padding: 12vh 0 2vh 0;
+	height: 75vh;
+	@media (max-width: 800px){
+		padding: 10vh 4vw 1em 0;
+		// height: 45vh;
+	}
+	@media (min-width: 1200px){
+		padding: 12vh 5vw 2vh 0;
+		// height: 75vh;
+	}
+	.iam {
+		font-family: Lato, Helvetica, sans-serif;
+		font-size: 3em;
+		text-transform: none;
+		font-weight: 400;
+		margin: 10% 0 0 0;
+		@media (max-width: 800px){
+			font-size: 2em;
+		}
+	}
+	.elevator{
+		font-size: 2em;
+		font-weight: 100;
+		// margin-right: 40vw;
+		@media (max-width: 800px){
+			font-size: 1.5em;
+		}
+	}
+	.portrait{
+		float:right;
+		width: 50vw;
+		width: 50%;
+		margin: 0 0 0 50px;
+		@media (max-width: 800px){
+			margin: 10% 0 0 50px;
+		}
+		@media (max-width: 600px){
+			float: none;
+			width: 90vw;
+			width: 90%;
+			margin: 0;
+		}
+	}
+	.square {
+		background-color: #ffb526;
+		width: 100px;
+		height: .5em;
+		margin-top: 8em;
+		@media (max-width: 600px){
+			margin-top: 1.5em;
+		}
+	}
+}
+#content {
+	width: 90%;
+	margin: 1em auto;
+	.work {
+		width: 100%;
+		margin: 1em auto;
+		h2 {
+			font-size: 2em;
+			text-align: left;
+			color: #2A2722;
+			font-weight: 200;
+		}
+		img {
+			width: 80%;
+			margin: 1em auto;
+			box-shadow: 0 2px 2px 0 rgba(160, 160, 160, 0.2), 0 3px 10px 0 rgba(260, 260, 260, 0.1);
+		}
+	}
+}
+
+/* About */
+
+#about{
+	height: 80vh;
+	padding: .25em 0;
+	.about{
+		margin: 3.5em;
+		.aboutHeading {
+			width: 30vw;
+			h2.about {
+				font-family: Amiko,Helvetica,sans-serif;
+				font-size: 2.5em;
+				text-align:left;
+				// line-height: 1.75;
+				color: #2A2722;
+				margin:1.5em 0 0 1.5em;
+			}
+		}
+		.bio {
+			margin: 2.5em auto 2em auto;
+			.portrait{
+				float:left;
+				margin: .25em 0 0 10%;
+				box-shadow: 0 2px 2px 0 rgba(160, 160, 160, 0.2), 0 3px 10px 0 rgba(260, 260, 260, 0.1);
+			}
+			h2 {
+				margin:0 30vw;
+				padding:0;
+				text-align: left;
+				font-size: 1.5em;
+				color: #ffb526;		
+			}
+			p.bio{
+				display: block;
+				font-size: 1em;
+				line-height: 1.5;
+				margin: 1em 30vw;
+				text-align: justify;
+			}
+			.signature {
+				float:right;
+				margin: 1em 30vw 0 0;
+				.location {
+					margin: 0em;
+					text-align: right;
+				}
+			}
+			
+		}		
+	}
+	
+	@media (max-width: 800px) {
+		height: auto;
+		.about{
+			margin: 1em;
+			.aboutHeading{
+				width: 100%;
+				h2.about{
+					font-size: 2.25em;
+					margin: 3em .5em 1em .5em;
+				}
+			}
+			.bio {
+				margin: 1em auto;
+				.portrait{
+					float: none;
+					margin: .25 auto;
+				}
+				p.bio {
+					margin: 1em;
+					text-align: left;
+				}
+				.signature {
+					float: none;
+					margin: 1em;
+					text-align: right;
+				}
+
+			}
+		}	
+	}
+}
+
+
+/* Footer includes social media links and Email CTA */
+#footer {
+	z-index: 1;
+	margin: 1em 5vw 2.5em 5vw;
+	display: flex;
+	align-content: stretch;
+	height:5vh;
 	.social {
 		flex: 1;
-
 		ol {
 			display: flex;
-			float: right;
-			
+			float: right;	
 			li {
 				margin: 0 0 0 1em;
 				align-items: center;
+				a {
+					border-bottom: none;
+				}
+				a:hover {
+					transform: scale(1.025);
+					transition: .3s;
+					box-shadow: 0 3px #ffb526;
+				}
+			}	
+		}
+	}
+	.contact {
+		p.cta {
+			font-family: Lato, Helvetica, sans-serif;
+			font-size: 1.25em;
+			margin: .25em;
+			a{
+				font-family: Amiko, Helvetica, sans-serif;	
 			}
-			// li:last-child{
-			// 	margin-right: 3.5em;
-			// }
 		}
 	}
 
-	@media (max-width: 600px) {
-		padding: 1.5em .5em;
+	@media (max-width: 800px) {
+		padding: 1.5em .5em 1.5em .5em;
 		margin: 0 auto;
-		flex-direction: column;
-
-		.title {
-			.name{
-				text-align:center;
-				margin: 1em auto;
-				width:100%;
-			}
-			p.tagline{
-				color: #2A2722;
-				text-align: center;
-				text-transform: lowercase;
-			}
-		}	
+		display: block;
 		.social {
-			margin: 0 auto;
+			margin: 0 .5em;
 			ol {
-				float: none;
+				float: right;
 				text-align:center;
 				margin: 0 auto 0 auto;
 				li {
@@ -97,137 +340,15 @@ header {
 				}
 				li:first-child{
 					margin:0;
-				}		
+				}
+		
 			}
+		}
+		.contact {
+			display: none;
 		}
 	}
 }
-
-#prologue{
-	background: #FFFCF7;
-	height: 60vh;
-	padding: 3.5em;
-	margin-top: -1em;
-	.prologue {
-		.fullname{
-			text-align: center;
-			margin: 5.5em auto 0 auto;			
-		}
-		p.profession{
-			font-size: 2em;
-			text-align: center;
-		}
-	}	
-}
-
-#epilogue{
-	height: 500px;
-	// background-color: #ffb526;
-	padding: 0;
-	border-bottom: 50px solid #FFFCF7;
-	.epilogue{
-		float:right;
-		// width: 50%;
-		margin: 3.5em 3.5em 3.5em 0;
-		h2.cta{
-			margin:0;
-			padding:0;
-			text-align: right;
-			font-size: 3.5em;
-			line-height: 1.5;
-			color: #ffb526;		
-		}
-		p.email{
-			font-size: 1.5em;
-			text-align:right;
-			color: #2A2722;
-			margin-top:1.5em;
-		}	
-	}
-
-	.portrait{
-		float:left;
-		margin: 0 2.5em;
-		max-height:400px;
-	}
-}
-
-
-@media (max-width: 900px) {
-	.prologue{
-		height: 350px;
-		.fullname{
-			margin: 1em auto 0 auto;
-		}
-		p.profession{
-			font-size:1.5em;
-			margin:0;
-		}
-	}
-	#epilogue{
-		height: auto;
-		margin: 0 auto;
-		border-bottom: none;
-		.epilogue{
-			float: none;
-			width: auto;
-			margin: 0 auto;			
-			h2.cta{
-				text-align: center;
-				padding: 1em;
-				margin: 0 auto;	
-			}
-			p.email{
-				text-align: center;
-				padding: 0;
-				margin: 0 auto;
-			}
-		}
-		.portrait{
-			float: none;
-			width: auto;
-			text-align: center;
-			margin: 0 auto;
-			padding:0;
-			// background-color: #ffb526;
-		}
-	}
-}
-
-@media (max-width: 600px) {
-	#prologue{
-		height: 250px;
-		padding: 2.5em .5em;
-		.prologue .fullname{
-			margin: 1.5em auto 0 auto;
-		}
-		.prologue p.profession{
-			font-size: 2em;
-			line-height: 1.25;
-			margin: 0;
-		}
-	}	
-	#epilogue{
-		padding: 0;
-		.epilogue {
-			margin:0;
-			h2.cta{
-				font-size:2.5em;
-				text-align: center;
-				margin: .5em 0 0 0;
-			}
-			p.email{
-				font-size: 1em;
-				margin: 0 auto 2.5em auto;
-			}
-		}
-		.portrait{
-			width:100%;
-			img{
-				overflow:hidden;
-				max-width:100%;
-				height:auto;
-			}
-		}
-	}	
+span.big {
+	font-size: 1.5em;
 }

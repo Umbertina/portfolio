@@ -1,9 +1,59 @@
-extends ../_layout.jade
 include ../_shared/project
+include ../_shared/social
+include ../_shared/menu
+include ../_shared/hero
 
-block content
-	-var data = public._data.projects.find(function (p) { return p.class === current.source; });
+doctype
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title= title
+		meta(meta="description" content=description)
+		link(rel="stylesheet" href="/styles/base.css")
+		block head
+		script(async src="https://www.googletagmanager.com/gtag/js?id=UA-111088895-1")
+		script.
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-111088895-1');
 
-	+project(data, 'single-page')
+	body
+		#container
+			#header
+				#title
+					a(href="http://maria.michelsen.dk/")
+						h1 <b>Maria H. Michelsen</b>	
+			#menu
+				+menu()
 
-		!= yield
+			#content
+				.work
+					h2 Project
+				block content
+					-var data = public._data.projects.find(function (p) { return p.class === current.source; });
+
+					+project(data, 'single-page')
+
+					!= yield
+
+			#footer
+				.social
+					+social()
+				.contact
+					p.cta
+						//- a(href="mailto:maria@michelsen.dk") maria@michelsen.dk
+
+					
+				
+
+		//- block scripts
+
+		//- script
+		//- 	include ../scripts/project.js	
+		//- 	include ../scripts/header.js
+		//- script
+		//- 	include ../node_modules/echo-js/dist/echo.min.js
+		//- script.
+		//- 	echo.init();

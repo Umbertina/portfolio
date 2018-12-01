@@ -1,588 +1,599 @@
 {
     "projects": [
         {
-            "class": "sanfranselfie",
-            "title": "San Franselfie",
-            "subtitle": "Hand Drawn Poster and Postcard",
-            "description": "A poster and postcard of tourist taking selfies on the Cable Car in North Beach, San Francisco. All artwork and typography is hand drawn in Adobe Draw and fine-tuned in Adobe Illustrator.",
+            "class": "bloom",
+            "title": "Bloom",
+            "subtitle": "Product Design • Visual Design",
+            "description": "I'm co-creator of a new investment tool, which makes it easier for users to find quality stocks. I conducted user interviews, did wireframes and prototypes, developed the brand identity, built the style guide system, created joyful illustrations, and wrote front-end code.",
             "images": [
                 {
-                    "src": "/images/SanFranselfie/In-the-fog.jpg",
-                    "width": "666",
-                    "height": "500",
-                    "alt": "San Franselfie Poster and Postcard"
+                    "src": "/images/Bloom/Cover.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom mobile cover"
                 },
                 {
-                    "src": "/images/SanFranselfie/Package-track.jpg",
-                    "width": "375",
-                    "height": "500",
-                    "alt": "San Franselfie poster and postcard package shown on the cable car's tracks"
+                    "src": "/images/Bloom/Part1-1.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Description of Blooms investment tool"
+                },  
+                {
+                    "src": "/images/Bloom/Part1-2.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom helps you find the right companies"
+                },               
+                {
+                    "src": "/images/Bloom/Part1-3.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom helps you know what you are buying through userfriendly data"
+                },                               
+                {
+                    "src": "/images/Bloom/Part1-4.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom helps you invest in quality stocks"
                 },
                 {
-                    "src": "/images/SanFranselfie/On-the-tracks2.jpg",
-                    "width": "666",
-                    "height": "500",
-                    "alt": "San Franselfie postcard displayed on the cable car's tracks"
+                    "src": "/images/Bloom/Part2-1_1.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom color palette and typography"
                 },
                 {
-                    "src": "/images/SanFranselfie/Streetview.jpg",
-                    "width": "500",
-                    "height": "500",
-                    "alt": "San Franselfie postcard shown with cable car in the background"
+                    "src": "/images/Bloom/Part2-1.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom personas based on user interviews"
                 },
                 {
-                    "src": "/images/SanFranselfie/Closeup.jpg",
-                    "width": "665",
-                    "height": "500",
-                    "alt": "Closeup of the details on the San Franselfie postcard"
-                }
+                    "src": "/images/Bloom/Part2-2.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom personas based on user interviews"
+                },
+                {
+                    "src": "/images/Bloom/Part2-3.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom's mobile flow for first time visitors"
+                },
+                {
+                    "src": "/images/Bloom/Part2-4.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part2-5.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part2-6.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part2-7.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part2-8.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part2-9.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part2-4.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-1.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-2.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-3.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-4.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-5.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-6.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-7.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-8.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-9.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-10.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-11.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Part3-12.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                },
+                {
+                    "src": "/images/Bloom/Finito.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Bloom thank you for watching"
+                }                                 
             ]
-        },        
+        }, 
         {
-            "class": "iconography",
-            "title": "Iconography",
-            "subtitle": "Icons for personal brand project",
-            "description": "20 icons made for my personal brand to be used on my web page, resume, business card etc. All illustrations are drawn by hand using Adobe Draw and fine-tuned in Illustrator.",
+            "class": "microsunapp",
+            "title": "MicroSun App",
+            "subtitle": "Product Design • Visual Design",
+            "description": "Project goal: To design the companion app for SunInc's MicroSun lamp. The app must motivate the user to use the lamp and to stay active. The styling of the app must comply with the MicroSun style guide and the design must be based on thorough user testing.",
+            "linkPreText": "Read article about the process",
+            "linkText": "Medium",
+            "linkUrl": "https://medium.com/@mhmichelsen/microsun-app-ui-ux-concept-project-5a32a1b0c1e4",
             "images": [
                 {
-                    "src": "/images/Iconography/Icon_Cover.png",
-                    "width": "752",
-                    "height": "500",
-                    "alt": "Iconography cover"
+                    "src": "/images/MicroSunApp/MicroSun_App2.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "MicroSun App presentation cover image"
                 },
                 {
-                    "src": "/images/Iconography/MHM-brand_Black.png",
-                    "width": "606",
-                    "height": "500",
-                    "alt": "21 icons including Behance, LinkedIn, Instagram, Medium"
+                    "src": "/images/MicroSunApp/MicroSun_App3.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Part page, the objective"
+                },                
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App4.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "MicroSun App project's challenge statement"
+                }, 
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App5.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Part page, design vision"
+                },                               
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App6.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "MicroSun's brand philosophy is translated into specific goals for the app design"
                 },
                 {
-                    "src": "/images/Iconography/Icon_Resume.png",
-                    "width": "752",
-                    "height": "499",
-                    "alt": "Icons used in personal curriculum vitae"
+                    "src": "/images/MicroSunApp/MicroSun_App7.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Primary and secondary font use for the MicroSun app"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App8.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Color palette and gradient use for the MicroSun app"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App9.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Part page, The process"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App10.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Ideation phase and the first user tests"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App11.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Wireframe prototype and the second round of user tests"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App12.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "High fidelity prototype and the third round of user tests"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App13.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Part page, Final design"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App14.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Sign In flow in MicroSun App"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App15.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Reminders and goals in MicroSun App"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App16.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Keeping track with statistical presentation of user data in MicroSun app"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App17.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Daily feed in MicroSun app that gives motivational content"
+                },
+                {
+                    "src": "/images/MicroSunApp/MicroSun_App18.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "MicroSun App presentation end. Thank you for watching"
                 }
+                
+            ]
+        },
+        {
+            "class": "meddlebrand",
+            "title": "Meddle",
+            "subtitle": "Product Design • Branding",
+            "description": "New brand identity for Meddle – an innovative dating app that lets the dater's friends swipe for them. The work included logo, color palette, app design, development of cartoon characters, and execution of material for ad campaigns.",
+            "images": [
+                {
+                    "src": "/images/Meddle/Artboard1.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Meddle Brand Identity Logo"
+                },
+                {
+                    "src": "/images/Meddle/Artboard2.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Description of Meddle product"
+                },  
+                {
+                    "src": "/images/Meddle/Artboard3.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Logo anatomy"
+                },               
+                {
+                    "src": "/images/Meddle/Artboard4.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Typography choice"
+                },                               
+                {
+                    "src": "/images/Meddle/Artboard6.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Meddle color palette"
+                },
+                {
+                    "src": "/images/Meddle/Artboard7.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Meddle finalized logo design with tagline"
+                },
+                {
+                    "src": "/images/Meddle/Artboard9.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Horizontal version of Meddle logo"
+                },
+                {
+                    "src": "/images/Meddle/Artboard10.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Meddle Character modul set"
+                },
+                {
+                    "src": "/images/Meddle/Artboard11.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Meddle app design"
+                },
+                {
+                    "src": "/images/Meddle/Artboard12.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Ad campaign material used for printed cards and social media"
+                },
+                {
+                    "src": "/images/Meddle/Artboard13.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Meddle animated commercial video"
+                },
+                {
+                    "src": "/images/Meddle/Artboard14.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Thank you for watching"
+                }      
             ]
         },
         {
             "class": "microsun",
             "title": "MicroSun",
-            "subtitle": "Brand and logo development",
-            "description": "Logo and branding development for the fictional start-up MicroSun, which I created for a CalArt course. The product concept is a pocket-sized artificial sun lamp to battle winter depression. The lamp can be powered by kinetic energy, so the more you move, the more your MicroSun shines.",
+            "subtitle": "Product Design • Branding",
+            "description": "Microsun is a portable artificial sun used to battle winter depression. The lamp can be powered by kinetic energy, so the more you move, the more your MicroSun shines. The work included logo, color palette, app design, and execution of material for ad campaigns.",
             "images": [
                 {
-                    "src": "/images/MicroSun/MicroSun_Brand_Cover.jpg",
-                    "width": "667",
-                    "height": "500",
+                    "src": "/images/MicroSun/MicroSun_Brand2.jpg",
+                    "width": "800",
+                    "height": "600",
                     "alt": "Microsun cover"
                 },
                 {
-                    "src": "/images/MicroSun/MicroSun_Brand2.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Project and company description for MicroSun"
-                },
-                {
                     "src": "/images/MicroSun/MicroSun_Brand3.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "The brand history for MicroSun"
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Assignment description: Create the brand identity for a small portable artificial sun lamp produced by SunInc."
                 },
                 {
                     "src": "/images/MicroSun/MicroSun_Brand4.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Brainstorm regarding the MicroSun brand"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand5.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Name development and philosophy for the MicroSun brand"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand6.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Moodboard used for the development of the Microsun brand"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand7.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Moodboard used for the development of the Microsun brand"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand8.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Exploration for the development of the MicroSun logotype"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand9.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Explorations and final logotype for MicroSun"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand10.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Color scheme developed for the MicroSun brand"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand11.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Mark explorations to create the Microsun mark"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand12.png",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Secondary type used for Microsun was Braggadocio"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand14.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "MicroSun Modular System"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand15.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "Examples of MicroSun brand applications"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand16.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "MicroSun packaging"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand17.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "MicroSun posters"
-                },
-                {
-                    "src": "/images/MicroSun/MicroSun_Brand18.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "MicroSun App"
+                    "width": "800",
+                    "height": "600",
+                    "alt": "The company history for SunInc who produces the MicroSun lamp"
                 },
                 {
                     "src": "/images/MicroSun/MicroSun_Brand19.jpg",
-                    "width": "773",
-                    "height": "500",
-                    "alt": "MicroSun postcards"
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Brand applications"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand20.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Overview of the MicroSun brand applications"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand21.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "MicroSun promotional posters"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand22.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "MicroSun promotional postcards, stickers and badges"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand23.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "MicroSun lamp package"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand24.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "MicroSun companion app"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand5.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Defining the Brand"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand6.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Brainstorming"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand7.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Selecting the name MicroSun for the product"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand8.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Defining the brand's philosophy: portable, energizing and joyful"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand9.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Moodboard showing the inspiration for the brand"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand10.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Moodboard showing the inspiration for the brand"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand11.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Building the brand"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand12.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Explorations for the design of the brand's logotype"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand13.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "More exploration and the final design of the brand's logotype based on the Avenir typography"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand14.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "The design process of the brand's mark"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand15.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Braggadocio is chosen as secondary type"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand16.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "The brand's color palette: yellow, white, blue, green, pink and black"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand17.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Definition of the brand's style"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand18.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Modular style system for the brand's three product variants"
+                },
+                {
+                    "src": "/images/MicroSun/MicroSun_Brand25.jpg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Thank you for watching"
                 }
             ]
-        },
+        }, 
         {
-            "class": "microsunapp",
-            "title": "MicroSun App",
-            "subtitle": "UI/UX concept Project",
-            "description": "In this concept project, I designed a companion mobile app to be used with the MicroSun lamp. The objective was to deliver a high-fidelity prototype of the app based on user interviews within seven days.",
-            "linkPreText": "Read article about my process on:",
-            "linkText": "Medium",
-            "linkUrl": "https://medium.com/@mariahagstenmichelsen/microsun-app-ui-ux-concept-project-5a32a1b0c1e4",
-            "images": [
-                {
-                    "src": "/images/MicroSunApp/MicroSun_App_Cover.jpg",
-                    "width": "667",
-                    "height": "500",
-                    "alt": "Microsun app cover"
-                },
-                {
-                    "src": "/images/MicroSunApp/Brainstorm.jpg",
-                    "width": "528",
-                    "height": "500",
-                    "alt": "Brainstorm and notes made for MicroSun app"
-                },
-                {
-                    "src": "/images/MicroSunApp/Sketches.png",
-                    "width": "578",
-                    "height": "500",
-                    "alt": "Sketches for MicroSun app"
-                },
-                {
-                    "src": "/images/MicroSunApp/Wireframes.png",
-                    "width": "363",
-                    "height": "500",
-                    "alt": "Wireframes for MicroSun app"
-                },
-                {
-                    "src": "/images/MicroSunApp/Prototype.jpg",
-                    "width": "384",
-                    "height": "500",
-                    "alt": "Final prototype for Microsun app"
-                },
-                {
-                    "src": "/images/MicroSunApp/Sign_Up.jpg",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app sing-up page"
-                },
-                {
-                    "src": "/images/MicroSunApp/Sign_Up_Filled.jpg",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app sign-up page filled out"
-                },
-                {
-                    "src": "/images/MicroSunApp/Connect.jpg",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app connect to lamp page"
-                },
-                {
-                    "src": "/images/MicroSunApp/Main.jpg",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app main page"
-                },
-                {
-                    "src": "/images/MicroSunApp/Reminder.png",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app set reminders page"
-                },
-                {
-                    "src": "/images/MicroSunApp/Edit_Reminder.png",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app add new reminder page"
-                },
-                {
-                    "src": "/images/MicroSunApp/Kinetic_Stats.png",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app stats for power generated via kinetic energy"
-                },
-                {
-                    "src": "/images/MicroSunApp/Sunshine_Stats.png",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app stats over use of lamp"
-                },
-                {
-                    "src": "/images/MicroSunApp/Your_MicroSun.png",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app settings page"
-                },
-                {
-                    "src": "/images/MicroSunApp/Goals.png",
-                    "width": "281",
-                    "height": "500",
-                    "alt": "Microsun app change goals page"
-                }
-            ]
-        },
-        {
-            "class": "voksenverden",
-            "title": "Voksenverden",
-            "subtitle": "A hand drawn poem collection",
-            "description": "Voksenverden is a poem collection written by the Danish author Marie Markvard Andersen. I designed the collection's visual appearance – a process that included handwriting the text of the collection's 29 poems and hand drawing the illustrations.",
-            "linkPreText": "Read more on:",
-            "linkText": "Behance",
-            "linkUrl": "https://www.behance.net/gallery/51469775/Voksenverden-A-Hand-Drawn-Poem-Collection",
-            "images": [
-                {
-                    "src": "/images/Voksenverden/VV_Book.jpg",
-                    "width": "859",
-                    "height": "500",
-                    "alt": "The front and back cover of the poem collection Voksenverden"
-                },
-                {
-                    "src": "/images/Voksenverden/VV_Handmade.jpg",
-                    "width": "645",
-                    "height": "500",
-                    "alt": "Images showing the poems being written and drawn by hand."
-                },
-                {
-                    "src": "/images/Voksenverden/VV_VVpage.jpg",
-                    "width": "859",
-                    "height": "500",
-                    "alt": "A page spread from the poem collection Voksenverden"
-                },
-                {
-                    "src": "/images/Voksenverden/VV_Perspective-book.jpg",
-                    "width": "624",
-                    "height": "500",
-                    "alt": "A page spread from the poem collection Voksenverden."
-                },
-                {
-                    "src": "/images/Voksenverden/VV_Debutant.jpg",
-                    "width": "504",
-                    "height": "500",
-                    "alt": "A single poem from the poem collection Voksenverden presented as single page artwork"
-                },
-                {
-                    "src": "/images/Voksenverden/VV_Framed.jpg",
-                    "width": "758",
-                    "height": "500",
-                    "alt": "Framed single page artworks from the poem collection Voksenverden"
-                },
-                {
-                    "src": "/images/Voksenverden/VV_cover.png",
-                    "width": "639",
-                    "height": "500",
-                    "alt": "Voksenverden poster"
-                }
-            ]
-        },
-        {
-            "class": "bright",
-            "title": "The Bright Side",
-            "subtitle": "An animated ebook",
-            "description": "In 2015, I created an animated GIF ebook version of the graphic novel Den lyse side by the Danish author Maren Uthaug. The ebook was simultaneously published in Danish and an English version with the title The Bright Side.",
-            "linkPreText": "Read article about my process on:",
-            "linkText": "Medium",
-            "linkUrl": "https://medium.com/@mariahagstenmichelsen/the-quest-for-the-animated-gif-ebook-31161a3b03fd",
-            "images": [
-                {
-                    "src": "/images/Bright/cover.jpg",
-                    "width": "667",
-                    "height": "500",
-                    "alt": "Cover for the ebook The Bright Side by Maren Uthaug"
-                },
-                {
-                    "type": "video/mp4",
-                    "poster": "/images/Bright/Hug.png",
-                    "src": "/images/Bright/Hug.mp4",
-                    "width": "667",
-                    "height": "500",
-                    "alt": "Animation of depressed woman in shower getting a hug from her daugther"
-                },
-                {
-                    "type": "video/mp4",
-                    "poster": "/images/Bright/Dance.png",
-                    "src": "/images/Bright/Dance.mp4",
-                    "width": "667",
-                    "height": "500",
-                    "alt": "Animation of depressed woman in shower getting cheered up by a dance with her husband"
-                },
-                {
-                    "type": "video/mp4",
-                    "poster": "/images/Bright/Dog.png",
-                    "src": "/images/Bright/Dog.mp4",
-                    "width": "667",
-                    "height": "500",
-                    "alt": "Animation of woman walking her dog"
-                }
-            ]
-        },
-        {
-            "class": "illustrations",
+            "class": "illustration",
             "title": "Illustrations",
             "subtitle": " ",
-            "description": "Digital drawings and paintings to be used as illustrations.",
+            "description": "A selection of my best illustrations. I mainly work with vector illustrations and often strive for a style with a naturalistic feel and a touch of magical realism. When working with clients, I focus on finding the most suitable style that fits their brand's needs, whether it is flat, organic, isometric, geometric or something that is outside the box.",
             "images": [
                 {
-                    "src": "/images/Illustrations/MHM-01.svg",
-                    "width": "682",
-                    "height": "500",
-                    "alt": "Vector illustration of the letters MHM"
-                },                
+                    "src": "/images/Illustration/1SereneHarbor.svg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Serene Harbor – an illustration of a boardpaddler in San Francisco harbor"
+                },            
                 {
-                    "src": "/images/Illustrations/Dragon.jpg",
-                    "width": "375",
-                    "height": "500",
-                    "alt": "Happy red dragon with mountains in the background."
+                    "src": "/images/Illustration/4TheDilemma.svg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "A woman in a dilemma"
                 },
                 {
-                    "src": "/images/Illustrations/Pop.jpg",
-                    "width": "727",
-                    "height": "500",
-                    "alt": "Pop - a popcorn game character."
+                    "src": "/images/Illustration/14Icons.svg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "A woman in a dilemma"
+                },                                
+                {
+                    "src": "/images/Illustration/6Word.svg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Words are never perfect"
                 },
                 {
-                    "type": "video/mp4",
-                    "poster": "/images/Illustrations/Pop-poster.jpg",
-                    "src": "/images/Illustrations/Pop_animation.mp4",
-                    "width": "500",
-                    "height": "500",
-                    "alt": "Animation of corn turning into popcorn"
+                    "src": "/images/Illustration/12CoffeeNews.svg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Illustration showing small people organizing a news app content next to a cup of coffee."
                 },
                 {
-                    "src": "/images/Illustrations/Fishing.jpg",
-                    "width": "375",
-                    "height": "500",
-                    "alt": "A black haired woman with fishing pole and fish."
+                    "src": "/images/Illustration/13Regex.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Pin-style trophies for the online game Regex Crossword, which teaches people to use regular expressions"
                 },
                 {
-                    "src": "/images/Illustrations/The_Orchid-04.png",
-                    "width": "946",
-                    "height": "500",
-                    "alt": "An illustration showing an orchid in three stages of its life"
+                    "src": "/images/Illustration/15SanFranselfie.png",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "Poster and postcard design celebrating the San Francisco cable cars with a modern twist"
                 },
                 {
-                    "src": "/images/Illustrations/Red_Masked_Parakeet.jpg",
-                    "width": "510",
-                    "height": "500",
-                    "alt": "Digital drawing of a red masked parakeet"
+                    "src": "/images/Illustration/9CitySunshine.svg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "People walking through a city in springtime sunshine"
                 },
                 {
-                    "src": "/images/Posters/Gill_Sans_Poster.png",
-                    "width": "327",
-                    "height": "500",
-                    "alt": "Poster about Gill Sans"
-                },
+                    "src": "/images/Illustration/3MHMWorld.svg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "My creative world captured in an illustration"
+                },   
                 {
-                    "src": "/images/Posters/Oculus.jpg",
-                    "width": "289",
-                    "height": "500",
-                    "alt": "Poster about Oculus"
-                }
-            ]
-        },
-        {
-            "class": "conceptual",
-            "title": "Artworks",
-            "subtitle": "Conceptual",
-            "description": "Pencil drawings, pastel paintings and watercolor paintings.",
-            "linkPreText": "See more artworks on:",
-            "linkText": "HP Comics and artworks",
-            "linkUrl": "http://hp-comic.com/",
-            "linkText2": "Instagram",
-            "linkUrl2": "https://www.instagram.com/mycreativerevolution/",
-            "images": [
-                {
-                    "src": "/images/Conceptual/LittleHornBlower.jpg",
-                    "width": "338",
-                    "height": "500",
-                    "alt": "Pencil drawing of an abstract horn shaped creature"
-                },
-                {
-                    "src": "/images/Conceptual/5_minutes_portraits.jpg",
-                    "width": "500",
-                    "height": "500",
-                    "alt": "6 ink portraits of women colored with watercolors"
-                },
-                {
-                    "src": "/images/Conceptual/Ballare_con_il_destino.jpg",
-                    "width": "295",
-                    "height": "500",
-                    "alt": "Pencil drawing of a monster meeting a woman"
-                },
-                {
-                    "src": "/images/Conceptual/Branches.jpg",
-                    "width": "289",
-                    "height": "500",
-                    "alt": "Pencil drawing of abstract branches or blood veins"
-                },
-                {
-                    "src": "/images/Conceptual/Drop.jpg",
-                    "width": "303",
-                    "height": "500",
-                    "alt": "Pencil drawing of an abstract drop shape"
-                },
-                {
-                    "src": "/images/Conceptual/Fire.jpg",
-                    "width": "339",
-                    "height": "500",
-                    "alt": "Pencil drawing of a fire creature"
-                },
-                {
-                    "src": "/images/Conceptual/Hands_examination.jpg",
-                    "width": "367",
-                    "height": "500",
-                    "alt": "Pencil drawing of an examination of the blood veins in the hand"
-                },
-                {
-                    "src": "/images/Conceptual/Memento_Mori.jpg",
-                    "width": "399",
-                    "height": "500",
-                    "alt": "Pastel painting of a skull on a dark background"
-                },
-                {
-                    "src": "/images/Conceptual/Studie-of-the-Hand.jpg",
-                    "width": "355",
-                    "height": "500",
-                    "alt": "Pencil drawing of a hand with the skin removed"
-                },
-                {
-                    "src": "/images/Conceptual/Warrior.jpg",
-                    "width": "340",
-                    "height": "500",
-                    "alt": "Pencil drawing of a warrior in armour"
-                },
-                {
-                    "src": "/images/Conceptual/Wheel.jpg",
-                    "width": "332",
-                    "height": "500",
-                    "alt": "Pencil drawing of a wheel made out of faces"
-                }
-            ]
-        },
-        {
-            "class": "naturalistic",
-            "title": "Artworks",
-            "subtitle": "Naturalistic",
-            "description": "Pencil drawings, pastel paintings and digital paintings.",
-            "linkPreText": "See more artworks on:",
-            "linkText": "HP Comics and artworks",
-            "linkUrl": "http://hp-comic.com/",
-            "linkText2": "Instagram",
-            "linkUrl2": "https://www.instagram.com/mycreativerevolution/",
-            "images": [
-                {
-                    "src": "/images/Naturalistic/Portrait-in-pastel.jpg",
-                    "width": "383",
-                    "height": "500",
-                    "alt": "Portrait of a woman made with pastel painting"
-                },
-                {
-                    "src": "/images/Naturalistic/Bionicle.jpg",
-                    "width": "348",
-                    "height": "500",
-                    "alt": "Pencil drawing of a Lego Bionicle"
-                },
-                {
-                    "src": "/images/Naturalistic/Cat.jpg",
-                    "width": "343",
-                    "height": "500",
-                    "alt": "Pastel painting of a black and white cat"
-                },
-                {
-                    "src": "/images/Naturalistic/Melancholia_2.jpg",
-                    "width": "357",
-                    "height": "500",
-                    "alt": "Pencil drawing of a naked woman sitting on the floor"
-                },
-                {
-                    "src": "/images/Naturalistic/Pastel_portrait2.jpg",
-                    "width": "325",
-                    "height": "500",
-                    "alt": "Pastel painting of a woman seen in profile portrait"
-                },
-                {
-                    "src": "/images/Naturalistic/Self-Portrait.jpg",
-                    "width": "400",
-                    "height": "500",
-                    "alt": "Pencil drawn self-portrait of Maria Hagsten Michelsen"
-                },
-                {
-                    "src": "/images/Naturalistic/Eye.jpg",
-                    "width": "681",
-                    "height": "500",
-                    "alt": "Pastel painting of an eye with a blue iris"
-                },
-                {
-                    "src": "/images/Naturalistic/Torso12.jpg",
-                    "width": "363",
-                    "height": "500",
-                    "alt": "Pencil drawing of torso statue"
-                },
-                {
-                    "src": "/images/Naturalistic/Wartime-London.jpg",
-                    "width": "386",
-                    "height": "500",
-                    "alt": "Pencil drawing of bombed building in London during WW2"
-                }
+                    "src": "/images/Illustration/11BrokenHeart.svg",
+                    "width": "800",
+                    "height": "600",
+                    "alt": "People walking through a city in springtime sunshine"
+                }   
             ]
         }
     ]

@@ -9,11 +9,7 @@ mixin picture(path, width, height, alt)
 		)
 	else
 		picture
-			//- source(
-			//-     srcset="#{ path.replace(ext, '.webp') }, #{ path.replace(ext, '@2x.webp') } 2x"
-			//-     type="image/webp"
-			//- )
-			source(media="(max-width: 600px)" srcset="#{ path.replace(ext, '@0,5x' + ext) }, #{path} 2x")
+			source(media="(max-width: 600px)" srcset="#{ path.replace(ext, '@0.5x' + ext) }, #{path} 2x")
 			img(
 				alt=alt
 				src=path

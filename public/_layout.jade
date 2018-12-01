@@ -1,4 +1,6 @@
 include _shared/social
+include _shared/menu
+include _shared/hero
 
 doctype
 html(lang="en")
@@ -9,50 +11,67 @@ html(lang="en")
 		meta(meta="description" content=description)
 		link(rel="stylesheet" href="/styles/base.css")
 		block head
+		script(async src="https://www.googletagmanager.com/gtag/js?id=UA-111088895-1")
+		script.
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-111088895-1');
 
 	body
 		#container
-			header
-				.title
-					.author
-						.name
-							img(src="/images/Name-large.svg" width="250" height="27" alt="Maria Hagsten Michelsen")
-					//- p.tagline= tagline
-				.social
-					+social()
-
-			#prologue
-				.prologue
-					.fullname
-						img(src="/images/MHM-logo.svg" width="309.6" height="148" alt="MHM logo")				
-					p.profession graphic designer
-			.border-top
+			#header
+				#title
+					a(href="#top")
+						h1 <b>Maria H. Michelsen</b><span class="shortbio" id="shortbio"> a product designer with a visual focus</span>
+			#introduction
+				img(srcset="/images/MHMprofile.jpg, /images/MHMprofile@0.5.jpg 0.5x, /images/MHMprofile@2x.jpg 2x," src="/images/MHMprofile.jpg" class="portrait" alt="Maria Hagsten Michelsen portrait")
+				h2.iam I'm a Danish Designer <br/>in San Francisco.
+				p.elevator I provide solutions based on extensive research, empathy, and holistic explorations.
+				.square
+			#menu
+				+menu()
 
 			#content
 				.work
-					h2 Selected Works
+					h2 Portfolio
+					a(href="/projects/bloom.html")
+						img.grid-item(srcset="/images/Covers/Bloom.png, /images/Covers/Bloom@0.5.png 0.5x, /images/Covers/Bloom@2x.png 2x," src="/images/Covers/Bloom.png" class="portrait" alt="Maria Hagsten Michelsen portrait")
+					a(href="/projects/bloom.html")
+						img.grid-item(srcset="/images/Covers/Bloom.png, /images/Covers/Bloom@0.5.png 0.5x, /images/Covers/Bloom@2x.png 2x," src="/images/Covers/Bloom.png" class="portrait" alt="Maria Hagsten Michelsen portrait")
 				block content
 					!= yield
-				.fullportfolio
-					a(href="https://www.behance.net/mhmichelsen")
-						p See full portfolio on Behance
 
-				.border-bottom
 
-			#epilogue
-				.epilogue
-					h2.cta Let's make<br/>amazing<br/>design
-					.info
-						a(href="mailto:maria.hagsten@michelsen.dk")
-							p.email maria@michelsen.dk
+			#about
+				.about
+					//- .aboutHeading
+					//- 	h2.about About
+					.bio
+						img(src="/images/MHMprofile.jpg" class="portrait" width="200" height="200" alt="Maria Hagsten Michelsen portrait")
+						//- h2 The Story of Me
+						p.bio <span class="big">With</span> a user centered design approach, I base my product design on four pillars: 1) How does it work 2) How does it look 3) How does it feel 4) How does it behave. These four pillars must work together to create an overarching cohesive experience for the user. 
+						p.bio With a master's degree in comparative literature I also utilize my storytelling skill to emphasize with the users as well as to ensure that a product's brand tells a unifying story. As a Dane living in San Francisco, I like to mix Scandinavian minimalism with the passion and craziness of the golden state.
+						p.bio When I’m not designing or interacting in Dribbble's community, I’m probably drinking coffee with my favorite peeps or swimming in the bay like a real Viking.
+						p.bio I'm currently looking for new work opportunities as a product designer or visual designer. CV available <a href="https://www.dropbox.com/s/srfwb05dwu28aqy/MHM_Resume_CV.pdf?dl=0" target="_blank">here</a>
+						.signature
+							img(src="/images/Signature.svg" width="270" height="60" alt="MHM logo")
+							p.location San Francisco, CA
+			#footer
+				.social
+					+social()
+				.contact
+					p.cta
+						//- a(href="mailto:maria@michelsen.dk") maria@michelsen.dk
 
-				.portrait
-					img(src="/images/MHM_portrait.jpg" width="438" height="500" alt="Maria Hagsten Michelsen portrait")
+					
+				
 
 		block scripts
 
 		script
-			include scripts/project.js
+			include scripts/project.js	
+			include scripts/header.js
 		script
 			include ../node_modules/echo-js/dist/echo.min.js
 		script.

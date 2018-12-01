@@ -1,60 +1,27 @@
-.border-top{
-	height:20px;
-	background: #ffb526;
-	border-top: 5px solid #99D1F5;
-	// border-bottom: 5px solid #99D1F5;
-	margin: 2em 0;
-}
+
+
 .work{
 	h2{
-		font-family: Lato,Helvetica,sans-serif;
-		font-size: 2em;
+		font-family: Amiko,Helvetica,sans-serif;
+		font-size: 5em;
 		font-weight: bolder;
 		color: #ffb526;
-		text-align:left;
-		padding: 1em 0 0 1.75em;
+		text-align:center;
+		padding: 3em 0 2em 0em;
 		margin: .75em 0;
 	}
 		@media (max-width: 600px) {
-		height: 100px;
+		height: 30vh;
 		margin: 1em 0;
 		h2{
-			font-size: 2em;
+			font-size: 3em;
 			text-align: center;
 			margin: 0;
-			padding: .9em 0 0 0;
+			padding: 20vh 0 0 0;
 		}
 	}
 }
-.border-bottom{
-	height:20px;
-	background: #ffb526;
-	border-bottom: 5px solid #99D1F5;
-	margin: 2em 0;
-}
-.fullportfolio{
-	p{
-		font-family: Lato,Helvetica,sans-serif;
-		font-size: 1.5em;
-		font-weight: bolder;
-		color: #ffb526;
-		text-align:left;
-		padding-top: -3.5em;
-		margin: 2.5em;
-	}
-		@media (max-width: 900){
-			text-align: center;
-		}
-		@media (max-width: 600px) {
-		height: 100px;
-		margin: 1em 0;
-		p{
-			text-align: center;
-			margin: 0 auto;
-			padding: 2.5em 0 0 0;
-		}
-	}
-}
+
 .project {
 	@info-width: 350px;
 	@padding: 3.5em;
@@ -78,7 +45,7 @@
 			text-transform: uppercase;
 		}
 		.subtitle {
-			color: #ffb526;
+			color: #9B9B9B;
 			text-transform: uppercase;
 			font-size: 1em;
 			font-weight: 500;
@@ -116,7 +83,7 @@
 
 				img {
 					background: #eee;
-					box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+					box-shadow: 0 2px 2px 0 rgba(160, 160, 160, 0.2), 0 3px 10px 0 rgba(260, 260, 260, 0.1);
 				}
 			}
 		}
@@ -124,7 +91,6 @@
 
 	.gallery-navigation{
 		@button-size: 60px;
-
 		position: absolute;
 		bottom: 0;
 		left: 50%;
@@ -182,17 +148,17 @@
 
 			h3 {
 				margin-top: .5em;
-				text-align: center;
+				// text-align: center;
 				// font-size: 1.35em;
 			}
 			.subtitle {
 				margin: 0 0 .75em 0;
-				text-align: center;
+				// text-align: center;
 				font-size: 1em;
 			}
 			.description{
 				font-size: .9em;
-				text-align: justify;
+				text-align: left;
 			}
 
 			.projectLink {
@@ -245,7 +211,33 @@
 	&.single-page {
 		.gallery {
 			overflow: hidden;
-
+			.info {
+				flex: none;
+				padding:1.5em 1.5em 0 1.5em;
+	
+				h3 {
+					margin-top: .5em;
+					// text-align: center;
+					// font-size: 1.35em;
+				}
+				.subtitle {
+					margin: 0 0 .75em 0;
+					// text-align: center;
+					font-size: 1em;
+				}
+				.description{
+					font-size: .9em;
+					text-align: left;
+				}
+	
+				.projectLink {
+					display: inherit;
+				}
+	
+				.linkPreText {
+					margin-top:.75em;
+				}
+			}
 			.images {
 				flex-direction: column;
 
@@ -265,31 +257,4 @@
 			display: none;
 		}
 	}
-	// &.sanfranselfie{
-	// 	background-color: white;
-	// }
-	// &.iconography{
-	// 	background-color: #FFFCF7;
-	// }
-	// &.voksenverden{
-	// 	background-color: white;
-	// }
-	// &.microsunapp{
-	// 	background-color: #FFFCF7;
-	// 		}
-	// &.microsun{
-	// 	background-color: white;
-	// }
-	// &.bright{
-	// 	background-color: #FFFCF7;
-	// }
-	// &.illustrations{
-	// 	background-color: white;
-	// }
-	// &.conceptual{
-	// 	background-color: #FFFCF7;
-	// }
-	// &.naturalistic{
-	// 	background-color: white;
-	// }
 }
