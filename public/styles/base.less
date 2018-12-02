@@ -10,16 +10,18 @@ html {
   }
 body {
 	background: #FFFCF7;
-	font-family: "Lato", Helvetica, sans-serif;
+	font-family: "Maven Pro", Helvetica, sans-serif;
 	font-weight:regular;
 	margin: 0;
 	line-height: 1.45em;
 }
 h2 {
-	font-family: Lato, Helvetica, sans-serif;
+	font-family: Amiko, Helvetica, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
 	font-size: 2em;
+	letter-spacing: .065em;
 	line-height: 1.25;
-	font-weight: 300;
 	margin: 2em 0em 0em 0em;
 }
 
@@ -27,7 +29,6 @@ p {
 	font-size: 1em;
 	font-weight: 300;
 	margin-top: 1em;
-	line-height: 1.5;
 	@media (max-width: 600px) {
 	text-align: left;
 	}
@@ -71,14 +72,14 @@ b {
 		opacity: 1;
 		z-index: 1;
 	}
-	@media (max-width: 500px) {
-		// width: 100%;
+	@media (max-width: 700px) {
+		width: 100%;
 			#title{
 				padding: 1em 1em;
-				font-size: 1em;	
+				font-size: 1.5em;	
 				height: 7vh;
 			#shortbio {
-				font-size: .85em;
+				font-size: .75em;
 				display: block;
 			}
 		}
@@ -114,12 +115,11 @@ b {
 			box-shadow: 0 3px #f7f6f3;
 		}
 	}
-	@media (max-width: 500px) {
-		padding: .5em .25em;
-		font-size: .85em;
+	@media (max-width: 600px) {
+		padding: 1.5em .25em;
 		nav{			
-			// float: left;
-			// margin: .5em .5em;
+			float: left;
+			margin: 2.25em .5em;
 			a{
 				font-size: 1em;
 			}
@@ -127,79 +127,151 @@ b {
 
 	}
 }
-/* Introduction */
-#introduction {
-	margin: 0 5vw 0 10vw;
-	padding: 12vh 0 2vh 0;
-	height: 75vh;
-	@media (max-width: 800px){
-		padding: 10vh 4vw 1em 0;
-		// height: 45vh;
+
+
+/* Hero image */
+
+#hero {
+	margin: 0vh 10vw;
+	padding: 10vh 0;
+	svg{
+		width: 80vw;
+	}
+	@media (max-width: 600px){
+		padding: 30vh 4vw 1em 0;
+		height: 45vh;
 	}
 	@media (min-width: 1200px){
-		padding: 12vh 5vw 2vh 0;
-		// height: 75vh;
-	}
-	.iam {
-		font-family: Lato, Helvetica, sans-serif;
-		font-size: 3em;
-		text-transform: none;
-		font-weight: 400;
-		margin: 10% 0 0 0;
-		@media (max-width: 800px){
-			font-size: 2em;
-		}
-	}
-	.elevator{
-		font-size: 2em;
-		font-weight: 100;
-		// margin-right: 40vw;
-		@media (max-width: 800px){
-			font-size: 1.5em;
-		}
-	}
-	.portrait{
-		float:right;
-		width: 50vw;
-		width: 50%;
-		margin: 0 0 0 50px;
-		@media (max-width: 800px){
-			margin: 10% 0 0 50px;
-		}
-		@media (max-width: 600px){
-			float: none;
-			width: 90vw;
-			width: 90%;
-			margin: 0;
-		}
-	}
-	.square {
-		background-color: #ffb526;
-		width: 100px;
-		height: .5em;
-		margin-top: 8em;
-		@media (max-width: 600px){
-			margin-top: 1.5em;
-		}
+		padding: 6vh 5vw 6vh 0;
+		height: 75vh;
 	}
 }
-#content {
-	width: 90%;
-	margin: 1em auto;
-	.work {
-		width: 100%;
-		margin: 1em auto;
-		h2 {
-			font-size: 2em;
-			text-align: left;
-			color: #2A2722;
-			font-weight: 200;
-		}
-		img {
-			width: 80%;
-			margin: 1em auto;
-			box-shadow: 0 2px 2px 0 rgba(160, 160, 160, 0.2), 0 3px 10px 0 rgba(260, 260, 260, 0.1);
-		}
+#CharacterFirst {
+	-webkit-animation: paintFirst .75s alternate infinite ease-in-out;
+	animation: paintFirst .75s alternate infinite ease-in-out;
+}
+
+@-webkit-keyframes paintFirst {
+	0% {
+			opacity: 1;
+	}
+	32% {
+			opacity: 1;
+	}
+	34% {
+		opacity: 0;
+	}
+	100% {
+			opacity: 0;
+	}
+}
+
+@keyframes paintFirst {
+	0% {
+			opacity: 1;
+	}
+	32% {
+			opacity: 1;
+	}
+	34% {
+		opacity: 0;
+	}
+	100% {
+			opacity: 0;
+	}
+}
+@keyframes paintFirst {
+	0% {
+		visibility: visible;
+	}
+	32% {
+		visibility: visible;
+	}
+	34% {
+		visibility: hidden;
+	}
+	100% {
+		visibility: hidden;
+	}
+}
+#CharacterSecond {
+	-webkit-animation: paintSecond .75s alternate infinite ease-in-out;
+	animation: paintSecond .75s alternate infinite ease-in-out;
+}
+
+@-webkit-keyframes paintSecond {
+	0% {
+		visibility: hidden;
+	}
+	32% {
+		visibility: hidden;
+	}
+	34% {
+		visibility: visible;
+	}
+	66% {
+		visibility: visible;
+	}
+	67% {
+		visibility: hidden;
+	}
+	100% {
+		visibility: hidden;
+	}
+}
+
+@keyframes paintSecond {
+	0% {
+		visibility: hidden;
+	}
+	32% {
+		visibility: hidden;
+	}
+	34% {
+		visibility: visible;
+	}
+	66% {
+		visibility: visible;
+	}
+	67% {
+		visibility: hidden;
+	}
+	100% {
+		visibility: hidden;
+	}
+}
+#CharacterThird {
+	-webkit-animation: paintThird .75s alternate infinite ease-in-out;
+	animation: paintThird .75s alternate infinite ease-in-out;
+}
+
+@-webkit-keyframes paintThird {
+	0% {
+		visibility: hidden;
+	}
+	66% {
+		visibility: hidden;
+	}
+	67% {
+		visibility: visible;
+	}
+	100% {
+		visibility: visible;
+	}
+}
+
+@keyframes paintThird {
+	0% {
+		visibility: hidden;
+	}
+	66% {
+		visibility: hidden;
+	}
+	67% {
+		visibility: visible;
+	}
+	100% {
+		visibility: visible;
 	}
 }
 

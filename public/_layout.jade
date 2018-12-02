@@ -24,21 +24,14 @@ html(lang="en")
 				#title
 					a(href="#top")
 						h1 <b>Maria H. Michelsen</b><span class="shortbio" id="shortbio"> a product designer with a visual focus</span>
-			#introduction
-				img(srcset="/images/MHMprofile.jpg, /images/MHMprofile@0.5.jpg 0.5x, /images/MHMprofile@2x.jpg 2x," src="/images/MHMprofile.jpg" class="portrait" alt="Maria Hagsten Michelsen portrait")
-				h2.iam I'm a Danish Designer <br/>in San Francisco.
-				p.elevator I provide solutions based on extensive research, empathy, and holistic explorations.
-				.square
+			#hero
+				+hero() 	
 			#menu
 				+menu()
 
 			#content
 				.work
-					h2 Portfolio
-					a(href="/projects/bloom.html")
-						img.grid-item(srcset="/images/Covers/Bloom.png, /images/Covers/Bloom@0.5.png 0.5x, /images/Covers/Bloom@2x.png 2x," src="/images/Covers/Bloom.png" class="portrait" alt="Maria Hagsten Michelsen portrait")
-					a(href="/projects/bloom.html")
-						img.grid-item(srcset="/images/Covers/Bloom.png, /images/Covers/Bloom@0.5.png 0.5x, /images/Covers/Bloom@2x.png 2x," src="/images/Covers/Bloom.png" class="portrait" alt="Maria Hagsten Michelsen portrait")
+					h2 Selected Works
 				block content
 					!= yield
 
